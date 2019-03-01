@@ -1,6 +1,6 @@
 {
 	"name": "safe-uri-path",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "Parse a uri safely",
 	"main": "src/index.js",
 	"scripts": {
@@ -14,7 +14,7 @@
 		"node-module",
 		"uri",
 		"parse"
-		],
+	],
 	"author": {
 		"name": "George Aidonidis",
 		"email": "georgeaidonidis@gmail.com",
