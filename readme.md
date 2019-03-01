@@ -1,6 +1,6 @@
 # safe-uri-path
 
-[![Build Status](https://travis-ci.org/George-Aidonidis/safe-path.svg?branch=master)](https://travis-ci.org/George-Aidonidis/safe-path) [![npm version](https://badge.fury.io/js/safe-uri-path.svg)](https://badge.fury.io/js/safe-uri-path)
+[![Build Status](https://travis-ci.org/George-Aidonidis/safe-uri-path.svg?branch=master)](https://travis-ci.org/George-Aidonidis/safe-uri-path) [![codecov](https://codecov.io/gh/George-Aidonidis/safe-uri-path/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/safe-uri-path?branch=master) [![npm version](https://badge.fury.io/js/safe-uri-path.svg)](https://badge.fury.io/js/safe-uri-path)
 
 A module to safely parse uri paths.
 
@@ -25,3 +25,16 @@ const weirdCat = 'cat?format=json';
 
 const uriPath = safelyParseUri`/${cat}/${weirdCat}`;
 ```
+
+## Contributing
+
+1. Fork it (<https://github.com/George-Aidonidis/generator-gemod/fork>)
+2. Create your feature branch (git checkout -b feature/fooBar)
+3. Commit your changes (git commit -am 'Add some fooBar')
+4. Push to the branch (git push origin feature/fooBar)
+5. Create a new Pull Request
+
+## License
+
+[MIT](./license) ©
+

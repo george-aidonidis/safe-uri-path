@@ -1,24 +1,28 @@
 {
 	"name": "safe-uri-path",
 	"version": "0.2.0",
-	"description": "",
+	"description": "Parse a uri safely",
 	"main": "src/index.js",
 	"scripts": {
 		"dev": "nodemon src/index.js",
-		"prettier": "prettier **/*.js",
-		"precommit": "lint-staged",
-		"prepush": "yarn test",
+		"codecov": "codecov",
 		"lint": "xo",
 		"test": "jest"
 	},
-	"keywords": [],
+	"keywords": [
+		"node_module",
+		"node-module",
+		"uri",
+		"parse"
+		],
 	"author": {
 		"name": "George Aidonidis",
 		"email": "georgeaidonidis@gmail.com",
 		"url": "https://georgeaidonidis.com"
 	},
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
+		"codecov": "^3.2.0",
 		"eslint-config-prettier": "^4.1.0",
 		"husky": "^1.3.1",
 		"jest": "^24.1.0",
@@ -28,23 +32,29 @@
 		"xo": "^0.24.0"
 	},
 	"lint-staged": {
-		"*.js": [
-			"prettier --write",
+		"*": [
 			"xo --fix",
 			"git add"
 		]
 	},
 	"xo": {
-		"envs": [
-			"jest"
+		"ignores": [
+			"app/templates/**"
 		],
-		"extends": [
-			"prettier"
+		"prettier": true,
+		"envs": [
+			"jest",
+			"node",
+			"browser"
 		],
 		"rules": {
-			"camelcase": [
-				1
-			]
+			"camelcase": 1
+		}
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged",
+			"pre-push": "yarn test"
 		}
 	}
 }
