@@ -3,6 +3,7 @@
 	"version": "0.3.1",
 	"description": "Parse a uri safely",
 	"main": "src/index.js",
+	"repository": "george-aidonidis/safe-uri-path",
 	"scripts": {
 		"dev": "nodemon src/index.js",
 		"codecov": "codecov",
