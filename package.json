@@ -1,6 +1,6 @@
 {
 	"name": "safe-uri-path",
-	"version": "0.3.2",
+	"version": "0.3.3",
 	"description": "Parse a uri safely",
 	"main": "src/index.js",
 	"repository": "george-aidonidis/safe-uri-path",
