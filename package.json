@@ -1,74 +1,74 @@
 {
-	"name": "safe-uri-path",
-	"version": "0.0.0-semantically-released",
-	"description": "Parse a uri safely",
-	"main": "src/index.js",
-	"repository": {
-		"type": "git",
-		"url": "george-aidonidis/safe-uri-path"
-	},
-	"scripts": {
-		"dev": "nodemon src/index.js",
-		"semantic-release": "semantic-release",
-		"codecov": "codecov",
-		"lint": "xo",
-		"test": "jest",
-		"commit": "git-cz"
-	},
-	"keywords": [
-		"node_module",
-		"node-module",
-		"uri",
-		"parse"
-	],
-	"author": {
-		"name": "George Aidonidis",
-		"email": "georgeaidonidis@gmail.com",
-		"url": "https://iamgeorge.dev"
-	},
-	"license": "MIT",
-	"devDependencies": {
-		"codecov": "^3.2.0",
-		"commitizen": "^3.0.7",
-		"cz-conventional-changelog": "^2.1.0",
-		"eslint-config-prettier": "^4.1.0",
-		"husky": "^1.3.1",
-		"jest": "^24.1.0",
-		"lint-staged": "^8.1.4",
-		"nodemon": "^1.15.1",
-		"prettier": "^1.10.2",
-		"semantic-release": "^15.13.3",
-		"xo": "^0.24.0"
-	},
-	"lint-staged": {
-		"*": [
-			"xo --fix",
-			"git add"
-		]
-	},
-	"xo": {
-		"ignores": [
-			"app/templates/**"
-		],
-		"prettier": true,
-		"envs": [
-			"jest",
-			"node",
-			"browser"
-		],
-		"rules": {
-			"camelcase": 1
-		}
-	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged",
-			"pre-push": "yarn test"
-		}
-	},
-	"config": {
-		"commitizen": {
-			"path": "./node_modules/cz-conventional-changelog"
-		}
-	}
+  "name": "safe-uri-path",
+  "version": "0.0.0-development",
+  "description": "Parse a uri safely",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/george-aidonidis/safe-uri-path"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "semantic-release": "semantic-release",
+    "codecov": "codecov",
+    "lint": "xo",
+    "test": "jest",
+    "commit": "git-cz"
+  },
+  "keywords": [
+    "node_module",
+    "node-module",
+    "uri",
+    "parse"
+  ],
+  "author": {
+    "name": "George Aidonidis",
+    "email": "georgeaidonidis@gmail.com",
+    "url": "https://iamgeorge.dev"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "codecov": "^3.2.0",
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "husky": "^1.3.1",
+    "jest": "^24.1.0",
+    "lint-staged": "^8.1.4",
+    "nodemon": "^1.15.1",
+    "prettier": "^1.10.2",
+    "semantic-release": "^15.13.3",
+    "xo": "^0.24.0"
+  },
+  "lint-staged": {
+    "*": [
+      "xo --fix",
+      "git add"
+    ]
+  },
+  "xo": {
+    "ignores": [
+      "app/templates/**"
+    ],
+    "prettier": true,
+    "envs": [
+      "jest",
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "camelcase": 1
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
