@@ -16,7 +16,5 @@ jobs:
         provider: npm
         email: george.aidonidis@gmail.com
         api_key: $NPM_TOKEN
-        on:
-          branch: 'master'
         script:
           - yarn semantic-release
