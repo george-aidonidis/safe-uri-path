@@ -1,6 +1,6 @@
 # safe-uri-path
 
-[![Build Status](https://travis-ci.org/George-Aidonidis/safe-uri-path.svg?branch=master)](https://travis-ci.org/George-Aidonidis/safe-uri-path) [![codecov](https://codecov.io/gh/George-Aidonidis/safe-uri-path/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/safe-uri-path?branch=master) [![npm version](https://badge.fury.io/js/safe-uri-path.svg)](https://badge.fury.io/js/safe-uri-path) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Build Status](https://travis-ci.org/george-aidonidis/safe-uri-path.svg?branch=master)](https://travis-ci.org/george-aidonidis/safe-uri-path) [![codecov](https://codecov.io/gh/george-aidonidis/safe-uri-path/badge.svg?branch=master)](https://codecov.io/gh/George-Aidonidis/safe-uri-path?branch=master) [![npm version](https://badge.fury.io/js/safe-uri-path.svg)](https://badge.fury.io/js/safe-uri-path) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 A module to safely parse uri paths.
 
