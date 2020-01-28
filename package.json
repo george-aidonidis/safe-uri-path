@@ -33,7 +33,7 @@
 		"lint-staged": "^9.0.2",
 		"nodemon": "^2.0.0",
 		"prettier": "^1.10.2",
-		"semantic-release": "^16.0.0",
+		"semantic-release": "^17.0.0",
 		"xo": "^0.25.3"
 	},
 	"lint-staged": {
