@@ -27,7 +27,7 @@
 	"license": "MIT",
 	"devDependencies": {
 		"codecov": "^3.2.0",
-		"eslint-config-prettier": "^7.1.0",
+		"eslint-config-prettier": "^8.0.0",
 		"husky": "^4.0.0",
 		"jest": "^26.0.1",
 		"lint-staged": "^10.0.9",
